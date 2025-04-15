@@ -1,0 +1,160 @@
+/* SpatialGridInterface.css */
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app-container {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 144px;
+    border-right: 1px solid #333;
+    background-color: #000;
+  }
+  
+  .logo-container {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 8px;
+  }
+  
+  
+  
+  .nav-item {
+    padding: 16px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  .nav-item.active {
+    background-color: #000;
+    font-weight: bold;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    flex: 1;
+  }
+  
+  .content-container {
+    padding: 16px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .add-button, .cancel-button {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Category Buttons */
+  .category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  
+  .category-button {
+    background-color: #000;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  /* Library Table */
+  .library-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .library-table th {
+    text-align: left;
+    padding: 12px;
+    background-color: #3a5a00;
+    border: 1px solid #426600;
+  }
+  
+  .library-table td {
+    padding: 12px;
+    background-color: #111;
+    border: 1px solid #426600;
+  }
+  
+  /* Form Styles */
+  .form-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .form-group {
+    flex: 1;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    background-color: #000;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .form-actions {
+    text-align: right;
+    margin-top: 16px;
+  }
+  
+  .submit-button {
+    background-color: #dc0000;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
